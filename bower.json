@@ -1,0 +1,27 @@
+{
+  "name": "fn-typeof",
+  "description": "Get the type of something. Seriously.",
+  "homepage": "https://github.com/Kikobeats/fn-typeof",
+  "version": "0.0.0",
+  "main": "./dist/fn-typeof.js",
+  "authors": [
+    {
+      "name": "Kiko Beats",
+      "email": "josefrancisco.verdu@gmail.com",
+      "homepage": "https://github.com/Kikobeats"
+    }
+  ],
+  "repository": "Kikobeats/fn-typeof",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/fn-typeof/issues"
+  },
+  "keywords": [],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
