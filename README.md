@@ -5,7 +5,7 @@
 [![Dependency status](http://img.shields.io/david/Kikobeats/fn-typeof.svg?style=flat-square)](https://david-dm.org/Kikobeats/fn-typeof)
 [![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/fn-typeof.svg?style=flat-square)](https://david-dm.org/Kikobeats/fn-typeof#info=devDependencies)
 [![NPM Status](http://img.shields.io/npm/dm/fn-typeof.svg?style=flat-square)](https://www.npmjs.org/package/fn-typeof)
-[![Gittip](http://img.shields.io/gittip/Kikobeats.svg?style=flat-square)](https://www.gittip.com/Kikobeats/)
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > Get the type of something. Seriously.
 
