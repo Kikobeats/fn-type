@@ -34,6 +34,19 @@ var typeOf = require('fn-typeof');
 
 console.log(typeOf({})) // => 'object'
 console.log(typeOf([])) // => 'array'
+
+console.log(typeOf.types)
+// => [
+// 'array',
+// 'boolean',
+// 'date',
+// 'function',
+// 'number',
+// 'object',
+// 'regexp',
+// 'string'
+// ];
+
 ```
 
 ## License

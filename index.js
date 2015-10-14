@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(something) {
+var fn = function(something) {
   if (something === void 0 || something === null) return String(something);
 
   var classToType = {
@@ -17,3 +17,15 @@ module.exports = function(something) {
   return classToType[Object.prototype.toString.call(something)];
 };
 
+module.exports = fn;
+
+module.exports.types = [
+  'array',
+  'boolean',
+  'date',
+  'function',
+  'number',
+  'object',
+  'regexp',
+  'string'
+];
