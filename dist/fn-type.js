@@ -1,0 +1,6 @@
+/**
+ * fn-type - Get the type of something. Seriously.
+ * @version v1.1.0
+ * @link    https://github.com/Kikobeats/fn-type
+ * @license MIT
+ */require=function r(e,t,n){function o(u,c){if(!t[u]){if(!e[u]){var a="function"==typeof require&&require;if(!c&&a)return a(u,!0);if(i)return i(u,!0);var f=new Error("Cannot find module '"+u+"'");throw f.code="MODULE_NOT_FOUND",f}var b=t[u]={exports:{}};e[u][0].call(b.exports,function(r){var t=e[u][1][r];return o(t?t:r)},b,b.exports,r,e,t,n)}return t[u].exports}for(var i="function"==typeof require&&require,u=0;u<n.length;u++)o(n[u]);return o}({"fn-type":[function(r,e,t){"use strict";var n=function(r){if(void 0===r||null===r)return String(r);var e={"[object Boolean]":"boolean","[object Number]":"number","[object String]":"string","[object Function]":"function","[object Array]":"array","[object Date]":"date","[object RegExp]":"regexp","[object Object]":"object"};return e[Object.prototype.toString.call(r)]};e.exports=n,e.exports.types=["array","boolean","date","function","number","object","regexp","string"]},{}]},{},[]);

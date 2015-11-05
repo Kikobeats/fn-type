@@ -1,9 +1,9 @@
 {
-  "name": "fn-typeof",
+  "name": "fn-type",
   "description": "Get the type of something. Seriously.",
-  "homepage": "https://github.com/Kikobeats/fn-typeof",
+  "homepage": "https://github.com/Kikobeats/fn-type",
   "version": "1.0.0",
-  "main": "./dist/fn-typeof.js",
+  "main": "./dist/fn-type.js",
   "authors": [
     {
       "name": "Kiko Beats",
@@ -11,9 +11,9 @@
       "homepage": "https://github.com/Kikobeats"
     }
   ],
-  "repository": "Kikobeats/fn-typeof",
+  "repository": "Kikobeats/fn-type",
   "bugs": {
-    "url": "https://github.com/Kikobeats/fn-typeof/issues"
+    "url": "https://github.com/Kikobeats/fn-type/issues"
   },
   "keywords": [],
   "ignore": [
