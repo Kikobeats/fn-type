@@ -37,14 +37,32 @@ console.log(typeOf([])) // => 'array'
 
 console.log(typeOf.types)
 // => [
-// 'array',
-// 'boolean',
-// 'date',
-// 'function',
-// 'number',
-// 'object',
-// 'regexp',
-// 'string'
+//  'arguments',
+//  'array',
+//  'arraybuffer',
+//  'boolean',
+//  'date',
+//  'error',
+//  'float32array',
+//  'float64array',
+//  'function',
+//  'generatorfunction',
+//  'int16array',
+//  'int32array',
+//  'int8array',
+//  'map',
+//  'number',
+//  'object',
+//  'regexp',
+//  'set',
+//  'string',
+//  'symbol',
+//  'uint16array',
+//  'uint32array',
+//  'uint8array',
+//  'uint8clampedarray',
+//  'weakmap',
+//  'weakset'
 // ];
 
 ```
