@@ -2,7 +2,7 @@
   "name": "fn-type",
   "description": "Get the type of something. Seriously.",
   "homepage": "https://github.com/Kikobeats/fn-type",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "main": "./dist/fn-type.js",
   "authors": [
     {
@@ -11,11 +11,19 @@
       "homepage": "https://github.com/Kikobeats"
     }
   ],
-  "repository": "Kikobeats/fn-type",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/fn-type.git"
+  },
   "bugs": {
     "url": "https://github.com/Kikobeats/fn-type/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "check",
+    "instanceof",
+    "type-of",
+    "typeof"
+  ],
   "ignore": [
     "**/.*",
     "bower_components",

@@ -1,19 +1,36 @@
 files: [
-  "package.json"
+  'package.json'
+  'bower.json'
 ]
+
 plugins:
-  postrelease:
+
+  prerelease:
 
     'Linting config files':
       plugin: 'bumped-finepack'
 
-    'Compile browser version':
+  postrelease:
+
+    'Compiling browser version':
       plugin: 'bumped-terminal'
       command: 'gulp'
 
     'Generating CHANGELOG file':
       plugin: 'bumped-changelog'
 
-    'Committing the new version':
+    'Commiting new version':
       plugin: 'bumped-terminal'
-      command: 'git add . && git commit -m "$newVersion releases"'
+      command: 'git add CHANGELOG.md bower.json package.json dist && git commit -m "Release $newVersion"'
+
+    'Detecting problem before publish':
+      plugin: 'bumped-terminal'
+      command: 'git-dirty && npm test'
+
+    'Publishing tag at Github':
+      plugin: 'bumped-terminal'
+      command: 'git tag $newVersion && git push && git push --tags'
+
+    'Publishing at NPM':
+      plugin: 'bumped-terminal'
+      command: 'npm publish'
