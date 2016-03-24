@@ -1,3 +1,9 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/kikobeats/fn-type/compare/1.1.2...v1.2.0) (2016-03-24)
+
+
+
+
 <a name="1.1.2"></a>
 ## 1.1.2 (2015-11-05)
 
