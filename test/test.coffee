@@ -2,9 +2,13 @@ typeOf = require '..'
 should = require 'should'
 
 describe 'fn-typeof ::', ->
+  it 'null', ->
+    typeOf(null).should.be.equal 'null'
 
+  it 'undefined', ->
+    typeOf(undefined).should.be.equal 'undefined'
 
-  it 'arguments', -> 
+  it 'arguments', ->
   	typeOf((-> return arguments)()).should.be.equal 'arguments'
 
   it 'array', ->
@@ -15,7 +19,7 @@ describe 'fn-typeof ::', ->
 
   it 'boolean', ->
 	  typeOf(true).should.be.equal 'boolean'
-  
+
   it 'date', ->
     typeOf(new Date()).should.be.equal 'date'
 
@@ -33,7 +37,7 @@ describe 'fn-typeof ::', ->
 
   it 'int16array', ->
     typeOf(new Int16Array()).should.be.equal 'int16array'
-  
+
   it 'int32array', ->
     typeOf(new Int32Array()).should.be.equal 'int32array'
 
@@ -47,8 +51,8 @@ describe 'fn-typeof ::', ->
     typeOf({}).should.be.equal 'object'
 
   it 'string', ->
-    typeOf('').should.be.equal 'string' 
-  
+    typeOf('').should.be.equal 'string'
+
   it 'uint8clampedarray', ->
     typeOf(new Uint8ClampedArray()).should.be.equal 'uint8clampedarray'
 
@@ -57,7 +61,3 @@ describe 'fn-typeof ::', ->
 
   it 'uint32array', ->
     typeOf(new Uint32Array()).should.be.equal 'uint32array'
- 
-
-
-

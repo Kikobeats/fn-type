@@ -1,16 +1,21 @@
 'use strict'
 
-var fn = function (something) {
-  if (something === void 0 || something === null) return String(something)
-  var className = Object.prototype.toString.call(something
-    ).replace(/^\[Object\s/i, '').replace(/\]$/, '').toLowerCase();
-  if (module.exports.types.indexOf(className) >= 0) { return className; }
-  return '?unsupported?:' + className;
+var headRegexp = /^\[Object\s/i
+var tailRegexp = /\]$/
+
+function fn (something) {
+  if (something == null) return String(something)
+
+  var className = Object.prototype.toString.call(something)
+    .replace(headRegexp, '')
+    .replace(tailRegexp, '')
+    .toLowerCase()
+
+  if (fn.types.indexOf(className) !== -1) return className
+  return new Error('?unsupported?:' + className)
 }
 
-module.exports = fn
-
-module.exports.types = [
+fn.types = [
   'arguments',
   'array',
   'arraybuffer',
@@ -38,3 +43,5 @@ module.exports.types = [
   'weakmap',
   'weakset'
 ]
+
+module.exports = fn
