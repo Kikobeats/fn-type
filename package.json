@@ -41,7 +41,7 @@
   },
   "scripts": {
     "pretest": "standard index.js",
-    "test": "sh test/test.sh"
+    "test": "mocha"
   },
   "license": "MIT"
 }
