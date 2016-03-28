@@ -22,7 +22,6 @@
     "type-of",
     "typeof"
   ],
-  "dependencies": {},
   "devDependencies": {
     "browserify": "latest",
     "coffee-script": "latest",
@@ -33,14 +32,15 @@
     "gulp-util": "latest",
     "mocha": "latest",
     "should": "latest",
+    "standard": "latest",
     "vinyl-buffer": "latest",
     "vinyl-source-stream": "latest"
   },
   "engines": {
-    "node": ">= 0.10.0",
-    "npm": ">= 1.4.0"
+    "node": ">= 0.10"
   },
   "scripts": {
+    "pretest": "standard index.js",
     "test": "sh test/test.sh"
   },
   "license": "MIT"
