@@ -64,8 +64,11 @@ console.log(typeOf.types)
 //  'weakmap',
 //  'weakset'
 // ];
-
 ```
+
+## Related
+
+* [fn-istype](https://github.com/Kikobeats/fn-istype) – Ask for a type, returns a true / false as answer.
 
 ## License
 
