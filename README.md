@@ -1,5 +1,7 @@
 # fn-type
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/fn-type.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/fn-type.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/fn-type/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/fn-type)
 [![Dependency status](http://img.shields.io/david/Kikobeats/fn-type.svg?style=flat-square)](https://david-dm.org/Kikobeats/fn-type)
